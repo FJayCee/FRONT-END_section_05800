@@ -1,0 +1,170 @@
+.header{
+    text-align: right;
+    background-color: brown;
+    padding: 35px;
+    width: 980px;
+}
+
+#headLettering{
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(226, 224, 224);
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+#cart{
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(226, 224, 224);
+    padding: 15px;
+    background-color: rgba(46, 46, 46, 0.678);
+    border-radius: 25px;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-right: 10px;
+}
+
+#cartItems{
+    font-size: 120%;
+    display: inline;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(226, 224, 224);
+    background-color: rgb(197, 60, 60);
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-block: 5px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+#imgContainer{
+    position: absolute;
+    top: 100px;
+    width: 1050px;
+    overflow: hidden;
+}
+
+#image{
+    position: relative;
+    top: -50px;
+    left: -10px;
+    width: 1070px;
+    height: 270px;
+    transform: rotate(-3deg);
+    z-index: -1;
+}
+
+#info{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(226, 224, 224);
+    background-color: #424242;
+    position: absolute;
+    top: 250px;
+    left: 160px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: -5px 7px #000000a4;
+    z-index: 5;
+}
+
+
+#subInfo{
+    font-size: 45%;
+    text-align: center;
+    display: block;
+}
+
+.main{
+    position: absolute;
+    top: 290px;
+    height: 500px;
+    width: 1050px;
+    background-color: #2e2e2e;
+    padding-block: 150px;
+    z-index: -4;
+}
+
+.menu{
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    left: 50px;
+    width: 900px;
+
+}
+
+.itemName{
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.itemDesc{
+    font-style: italic;
+    margin-left: 70px;
+}
+
+.itemPrice{
+    color: rgb(163, 110, 12);
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.amountInd1{
+    margin-left: 620px;
+    display: inline;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.amountInd2{
+    margin-left: 595px;
+    display: inline;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.amountInd3{
+    margin-left: 540px;
+    display: inline;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.amountInd4{
+    margin-left: 580px;
+    display: inline;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.qty{
+    border: 1px solid grey;
+    font-weight: bold;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.addButton{
+    color: white;
+    background-color: brown;
+    padding-block: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    margin-left: 650px;
+}
+
+.line{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.438);
+}
